@@ -1,0 +1,57 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.component__quizz {
+  padding-top: 30px; }
+
+.component__infos {
+  text-align: center;
+  margin-bottom: 30px; }
+
+.component #progress {
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem; }
+
+.component #question {
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-bottom: 3rem; }
+
+.component__choices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto; }
+  .component__choices button {
+    cursor: pointer;
+    width: calc(100%/4);
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    width: calc(100%/4 - 20px);
+    height: 250px;
+    margin: 10px;
+    background-color: #fff;
+    color: slategrey;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; }
+    .component__choices button:hover {
+      background-color: #516EFB;
+      border: 2px solid #516EFB;
+      color: #fff; }
